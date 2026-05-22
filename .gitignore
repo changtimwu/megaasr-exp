@@ -1,0 +1,38 @@
+# Upstream clone — pulled fresh, not tracked here
+Mega-ASR/
+
+# Model weights (large)
+ckpt/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Audio data (potentially large / private recordings)
+data/audio/
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.ogg
+
+# Eval outputs
+results/*.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.python-version
+
+# Conda / env
+.env
+.envrc
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
